@@ -1,0 +1,11 @@
+.footer__copyright {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 92px;
+  padding-bottom: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+}
