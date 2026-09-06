@@ -12,7 +12,6 @@
   color: #fff;
   max-width: 830px;
   min-height: 482px;
-  font-family: "Inter";
   padding-top: 92px;
 }
 .main__title {
@@ -41,7 +40,6 @@
 .main__description {
   margin: 0;
   padding-top: 32px;
-  font-family: Inter;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.63;
