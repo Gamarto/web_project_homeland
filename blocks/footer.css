@@ -8,3 +8,13 @@
   font-size: 14px;
   line-height: 1.14;
 }
+@media screen and (max-width: 1024px) {
+  .footer__copyright {
+    padding-top: 88px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .footer__copyright {
+    padding-top: 64px;
+  }
+}
