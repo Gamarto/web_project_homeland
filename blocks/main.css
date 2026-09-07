@@ -4,12 +4,14 @@
   align-items: center;
 }
 .main__image {
+  width: 100%;
   padding-top: 64px;
   max-width: 984px;
   max-height: 615px;
 }
 .main__text {
   color: #fff;
+  width: 100%;
   max-width: 830px;
   min-height: 482px;
   padding-top: 92px;
@@ -34,6 +36,7 @@
   font-size: 24px;
   line-height: 1.42;
   text-align: right;
+  width: 100%;
   max-width: 732px;
   min-height: 34px;
 }
@@ -43,6 +46,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.63;
+  width: 100%;
   max-width: 722px;
   min-height: 182px;
 }

@@ -61,7 +61,7 @@
   .header__subtitle {
     font-size: 16px;
     line-height: 1.25;
-    max-width: 228px;
+    max-width: 288px;
     padding-top: 16px;
   }
   .main__image {
@@ -71,7 +71,7 @@
   }
   .main__text {
     max-width: 288px;
-    min-height: 878px;
+    height: 878px;
     padding-top: 64px;
   }
   .main__title {
@@ -88,7 +88,7 @@
   }
   .main__description {
     max-width: 288px;
-    max-height: 442px;
+    min-height: 442px;
   }
   .footer__copyright {
     padding-top: 64px;
