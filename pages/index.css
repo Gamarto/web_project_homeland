@@ -3,7 +3,7 @@
 @import url("../blocks/header.css");
 @import url("../blocks/main.css");
 @import url("../blocks/footer.css");
-@import url("../vendor/fonts/fonts.css");
+@import url("../vendor/fonts.css");
 
 @media screen and (max-width: 1024px) {
   .header__logo {
