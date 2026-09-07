@@ -23,6 +23,10 @@
     max-height: 480px;
   }
   .main__text {
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
     max-width: 720px;
     min-height: 490px;
     padding-top: 90px;
