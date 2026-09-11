@@ -5,7 +5,7 @@
 }
 .header__logo {
   width: 100%;
-  max-width: 188px;
+  max-width: 254px;
   padding-top: 34px;
 }
 .header__title {
@@ -47,6 +47,7 @@
   .header__logo {
     width: 100%;
     padding-top: 20px;
+    max-width: 188px;
   }
   .header__title {
     width: 100%;
