@@ -65,10 +65,7 @@
   margin: 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-areas:
-    "title website"
-    "photo paragraph"
-    "frame paragraph";
+  grid-template-rows: auto 510px auto;
   padding-bottom: 80px;
 }
 .main__place:last-of-type {
@@ -80,19 +77,16 @@
   font-weight: 900;
   line-height: 76px;
   max-width: 460px;
-  grid-area: title;
 }
 .main__places-photo {
   margin-top: 48px;
   max-width: 460px;
   width: 100%;
   box-shadow: 10px 10px 25px black;
-  grid-area: photo;
 }
 .main__website {
   margin: 0;
   align-self: end;
-  grid-area: website;
 }
 .main__website-url {
   margin: 0;
@@ -115,7 +109,6 @@
   line-height: 163%;
   font-size: 18px;
   font-weight: 400;
-  grid-area: paragraph;
 }
 .main__website-paragraph-muramvya {
   padding-top: 25px;
@@ -124,7 +117,13 @@
   line-height: 163%;
   font-size: 18px;
   font-weight: 400;
-  grid-area: paragraph;
+}
+.main__place-muramvya {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto 510px auto;
+  padding-bottom: 150px;
 }
 .main__website-paragraph:first-of-type {
   padding-top: 48px;
@@ -138,7 +137,6 @@
   border-radius: 4px;
   height: 48px;
   margin-top: 48px;
-  grid-area: frame;
 }
 .main__frame-text {
   margin: 0;
