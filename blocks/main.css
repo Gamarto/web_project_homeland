@@ -183,7 +183,7 @@
     grid-template-rows: repeat(4, 1fr);
   }
   .main__places {
-    max-width: 768px;
+    max-width: 720px;
     padding-top: 88px;
   }
   .main__place {
