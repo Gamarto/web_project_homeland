@@ -85,7 +85,7 @@
   margin: 0;
   font-size: 72px;
   font-weight: 900;
-  line-height: 76px;
+  line-height: 1.08;
   max-width: 460px;
 }
 .main__places-photo {
@@ -111,7 +111,7 @@
   margin: 0;
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.22;
 }
 .main__website-paragraph {
   margin: 0;
@@ -206,7 +206,7 @@
   }
   .main__place-title {
     font-size: 42px;
-    line-height: 46px;
+    line-height: 1.09;
     max-width: 340px;
   }
   .main__website-paragraph {
@@ -223,11 +223,12 @@
     align-items: center;
   }
   .main__image {
-    padding-top: 40px;
+    margin-top: 40px;
     width: 100%;
   }
   .main__text {
     width: 100%;
+    max-width: 288px;
     padding-top: 64px;
   }
   .main__title {
@@ -236,6 +237,7 @@
     width: 100%;
   }
   .main__subtitle {
+    padding-top: 40px;
     line-height: 1.25;
     width: 100%;
   }
@@ -246,5 +248,57 @@
   }
   .main__description {
     width: 100%;
+  }
+  .main__photos {
+    grid-template-columns: 1fr;
+    padding-top: 38px;
+    gap: 12px;
+    max-width: 288px;
+  }
+  .main__place {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 68px;
+  }
+  .main__place-left {
+    max-width: 288px;
+    display: contents;
+    width: 100%;
+  }
+  .main__website-paragraph {
+    order: 3;
+  }
+  .main__website-paragraph:first-of-type {
+    padding-top: 30px;
+  }
+  .main__website {
+    align-self: flex-start;
+  }
+  .main__places {
+    max-width: 288px;
+    padding-top: 62px;
+    width: 100%;
+  }
+  .main__place-title {
+    font-size: 32px;
+    line-height: 1.09;
+    padding-bottom: 30px;
+  }
+  .main__places-photo {
+    width: calc(100% + 32px);
+    max-width: none;
+    margin-left: -16px;
+    margin-top: 30px;
+  }
+  .main__frame {
+    width: 100%;
+    margin-top: 30px;
+    order: 4;
+  }
+  .main__frame-text {
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px 21px;
   }
 }
