@@ -116,7 +116,7 @@
 .main__website-paragraph {
   margin: 0;
   max-width: 484px;
-  line-height: 163%;
+  line-height: 1.63;
   font-size: 18px;
   font-weight: 400;
 }
