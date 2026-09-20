@@ -16,6 +16,7 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 1.07;
+  font-family: 'Inter-Black';
 }
 .main__subtitle {
   margin: 0;
@@ -23,6 +24,7 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 1.42;
+  font-family: 'Inter-Regular';
 }
 .main__subname {
   margin: 0;
@@ -32,6 +34,7 @@
   line-height: 1.42;
   text-align: right;
   width: 100%;
+  font-family: 'Inter-Regular';
   max-width: 732px;
 }
 .main__description {
@@ -40,6 +43,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.63;
+  font-family: 'Inter-Regular';
   width: 100%;
   max-width: 722px;
 }
@@ -87,6 +91,7 @@
   font-weight: 900;
   line-height: 1.08;
   max-width: 460px;
+  font-family: 'Inter-Black';
 }
 .main__places-photo {
   margin-top: 48px;
@@ -97,6 +102,7 @@
 .main__website {
   margin: 0;
   align-self: end;
+  font-family: 'Inter-Regular';
 }
 .main__website-url {
   margin: 0;
@@ -118,6 +124,7 @@
   max-width: 484px;
   line-height: 1.63;
   font-size: 18px;
+  font-family: 'Inter-Regular';
   font-weight: 400;
 }
 .main__website-paragraph:first-of-type {
@@ -150,6 +157,7 @@
   text-decoration: none;
   font-size: 18px;
   padding: 13px 20px;
+    font-family: 'Inter-Regular';
 }
 @media screen and (max-width: 1024px) {
   .main__image {
